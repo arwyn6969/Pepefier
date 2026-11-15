@@ -1,0 +1,17 @@
+{
+  "name": "Pepefier",
+  "manufacturer": "Pepe Labs",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "instrument",
+  "uid": "PAI7",
+  "numInputs": 0,
+  "numOutputs": 2,
+  "category": "Synth",
+  "file32": "VST/pepefier-arm32.so",
+  "file64": "VST/pepefier-arm64.so",
+  "description": "Pepefier: procedural frog croak emulator with Bullfrog, Ribbit, Peeper, Trill, Honk and Pepe modes. Doppler, chorus and pond bed.",
+  "author": "Pepe Labs",
+  "url": "",
+  "license": "MIT"
+}

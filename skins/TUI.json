@@ -1,0 +1,264 @@
+{
+  "pageData": {
+    "version": 1,
+    "componentDefinitions": {
+      "version": 2,
+      "importFiles": [],
+      "localComponentDefinitions": []
+    },
+    "info": {
+      "version": 1,
+      "descriptionType": "CompleteDescription",
+      "manufacturerName": "Pepe Labs",
+      "pluginName": "Pepefier"
+    },
+    "tabs": [
+      {
+        "version": 1,
+        "tabName": "Croak",
+        "fnKeyIndex": 0,
+        "fnKeySubIndex": 0,
+        "componentDefinition": {
+          "version": 2,
+          "actions": [],
+          "backgroundData": {
+            "version": 1,
+            "focussed": {"version": 1, "colour": "ff0d1a12", "image": ""},
+            "unfocussed": {"version": 1, "colour": "ff0d1a12", "image": ""}
+          },
+          "ignoreMousePresses": false,
+          "disableCoarseDataWheel": false,
+          "componentsData": [
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "pepe", "type": "Image", "data": {"version": 2, "imageType": "FilmStrip", "colour": "0", "image": "pepe_idle.png", "numFrames": 4, "animated": true}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "1020 20 220 220"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "title", "type": "Label", "data": {"version": 1, "text": "PEPEFIER", "textStyle": {"version": 1, "font": "Titillium Web", "size": 36, "colour": "ff8fd21f", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "30 15 400 55"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "mode", "type": "sliderWithFocus", "data": {"version": 1, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 0"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "30 90 300 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "size", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 1"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "40 200 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "sizeLabel", "type": "Label", "data": {"version": 1, "text": "Size", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "40 295 90 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "intensity", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 2"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "160 200 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "intLabel", "type": "Label", "data": {"version": 1, "text": "Intensity", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "150 295 110 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "pulse", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 3"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "280 200 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "pulseLabel", "type": "Label", "data": {"version": 1, "text": "Pulse", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "280 295 90 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "decay", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 4"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "400 200 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "decayLabel", "type": "Label", "data": {"version": 1, "text": "Decay", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "400 295 90 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "sweep", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 5"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "520 200 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "sweepLabel", "type": "Label", "data": {"version": 1, "text": "Sweep", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "520 295 90 25"}
+            }
+          ]
+        },
+        "qlinkBoundsData": ["30 180 600 160", "358 0 248 624", "678 0 248 624", "998 0 248 624"]
+      },
+      {
+        "version": 1,
+        "tabName": "Move",
+        "fnKeyIndex": 1,
+        "fnKeySubIndex": 0,
+        "componentDefinition": {
+          "version": 2,
+          "actions": [],
+          "backgroundData": {
+            "version": 1,
+            "focussed": {"version": 1, "colour": "ff0d1a12", "image": ""},
+            "unfocussed": {"version": 1, "colour": "ff0d1a12", "image": ""}
+          },
+          "ignoreMousePresses": false,
+          "disableCoarseDataWheel": false,
+          "componentsData": [
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "title", "type": "Label", "data": {"version": 1, "text": "HOP & WET", "textStyle": {"version": 1, "font": "Titillium Web", "size": 32, "colour": "ff8fd21f", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "30 15 400 50"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "doppler", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 6"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "40 100 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "dopplerLabel", "type": "Label", "data": {"version": 1, "text": "Doppler", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "30 195 110 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "depth", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 11"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "160 100 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "depthLabel", "type": "Label", "data": {"version": 1, "text": "Depth", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "160 195 90 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "chorus", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 7"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "280 100 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "chorusLabel", "type": "Label", "data": {"version": 1, "text": "Chorus", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "280 195 90 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "chrate", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 8"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "400 100 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "chrateLabel", "type": "Label", "data": {"version": 1, "text": "Rate", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "410 195 70 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "chdepth", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 9"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "520 100 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "chdepthLabel", "type": "Label", "data": {"version": 1, "text": "Depth", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "520 195 90 25"}
+            }
+          ]
+        },
+        "qlinkBoundsData": ["30 80 600 160", "358 0 248 624", "678 0 248 624", "998 0 248 624"]
+      },
+      {
+        "version": 1,
+        "tabName": "Pond",
+        "fnKeyIndex": 2,
+        "fnKeySubIndex": 0,
+        "componentDefinition": {
+          "version": 2,
+          "actions": [],
+          "backgroundData": {
+            "version": 1,
+            "focussed": {"version": 1, "colour": "ff0d1a12", "image": "pepe_pond.png"},
+            "unfocussed": {"version": 1, "colour": "ff0d1a12", "image": "pepe_pond.png"}
+          },
+          "ignoreMousePresses": false,
+          "disableCoarseDataWheel": false,
+          "componentsData": [
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "title", "type": "Label", "data": {"version": 1, "text": "POND BED", "textStyle": {"version": 1, "font": "Titillium Web", "size": 32, "colour": "ff8fd21f", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "30 15 400 50"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "pond", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 10"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "40 120 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "pondLabel", "type": "Label", "data": {"version": 1, "text": "Pond", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "50 215 70 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "auto", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 13"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "180 120 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "autoLabel", "type": "Label", "data": {"version": 1, "text": "Auto", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "195 215 60 25"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "volume", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
+              "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 12"}]},
+              "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "320 120 90 90"}
+            },
+            {
+              "version": 2,
+              "componentData": {"version": 1, "name": "volLabel", "type": "Label", "data": {"version": 1, "text": "Volume", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "325 215 80 25"}
+            }
+          ]
+        },
+        "qlinkBoundsData": ["30 100 400 140", "358 0 248 624", "678 0 248 624", "998 0 248 624"]
+      }
+    ]
+  }
+}

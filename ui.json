@@ -1,0 +1,43 @@
+{
+  "kit": "lime",
+  "style": {
+    "background": "ff0d1a12",
+    "accent": "ff4ade80",
+    "text": "ffe8f5e9",
+    "muted": "ff86a88a"
+  },
+  "pages": [
+    {
+      "name": "Croak",
+      "controls": [
+        {"widget": "text", "text": "PEPEFIER"},
+        {"param": "Mode",      "widget": "switch"},
+        {"param": "Size",      "widget": "knob"},
+        {"param": "Intensity", "widget": "knob"},
+        {"param": "Pulse Rate","widget": "knob"},
+        {"param": "Decay",     "widget": "knob"},
+        {"param": "Sweep",     "widget": "knob"}
+      ]
+    },
+    {
+      "name": "Move",
+      "controls": [
+        {"widget": "text", "text": "HOP & WET"},
+        {"param": "Doppler",   "widget": "knob"},
+        {"param": "Depth",     "widget": "knob"},
+        {"param": "Chorus",    "widget": "knob"},
+        {"param": "Chor Rate", "widget": "knob"},
+        {"param": "Chor Depth","widget": "knob"}
+      ]
+    },
+    {
+      "name": "Pond",
+      "controls": [
+        {"widget": "text", "text": "POND BED"},
+        {"param": "Pond",      "widget": "knob"},
+        {"param": "Auto",      "widget": "knob"},
+        {"param": "Volume",    "widget": "knob"}
+      ]
+    }
+  ]
+}
