@@ -49,6 +49,12 @@
             },
             {
               "version": 2,
+              "componentData": {"version": 1, "name": "modeLabel", "type": "Label", "data": {"version": 1, "text": "Mode", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "handle remapping": {"version": 1, "map": []},
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "340 120 80 25"}
+            },
+            {
+              "version": 2,
               "componentData": {"version": 1, "name": "size", "type": "Knob", "data": {"version": 2, "knobType": "FilmStrip", "filmStrip": "kit/knob_uni.png", "numFrames": 127, "invert": false, "handleName": "Data"}},
               "handle remapping": {"version": 1, "map": [{"key": "Data", "value": "Parameter 1"}]},
               "bounds": {"version": 1, "acceptsHWFocus": "Yes", "showWhenDataModelInvalid": "Hide", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "40 200 90 90"}
@@ -189,9 +195,9 @@
             },
             {
               "version": 2,
-              "componentData": {"version": 1, "name": "chdepthLabel", "type": "Label", "data": {"version": 1, "text": "Depth", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
+              "componentData": {"version": 1, "name": "chdepthLabel", "type": "Label", "data": {"version": 1, "text": "Chor Depth", "textStyle": {"version": 1, "font": "Titillium Web", "size": 14, "colour": "ffc8e6c9", "justification": "Left"}}},
               "handle remapping": {"version": 1, "map": []},
-              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "520 195 90 25"}
+              "bounds": {"version": 1, "acceptsHWFocus": "No", "showWhenDataModelInvalid": "Show", "whenVisible": "Always", "boundsType": "Absolute", "bounds": "510 195 120 25"}
             }
           ]
         },
